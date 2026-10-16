@@ -13,6 +13,7 @@ site_name = "Documentation"
 nav = [
   { "Get started" = "index.md" },
   { "Markdown in 5min" = "markdown.md" },
+  { "Básicos de sqlite3" = "sqlite3/basics.md" }
 ]
 
 # extra_css = ["stylesheets/extra.css"]
