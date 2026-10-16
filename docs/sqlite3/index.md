@@ -20,15 +20,17 @@ which sqlite3
 
 Si no está instalado:
 
-- Debian / Ubuntu:
-  ```bash
-  sudo apt install sqlite3
-  ```
-- macOS con Homebrew:
-  ```bash
-  brew install sqlite
-  ```
-- Windows: puedes descargar las herramientas de línea de comandos desde la página oficial de [SQLite](<https://sqlite.org/download.html?utm_source=chatgpt.com>).
+=== "Debian / Ubuntu"
+
+    ```bash
+    sudo apt install sqlite3
+    ```
+
+=== "macOS con Homebrew"
+
+    ```bash
+    brew install sqlite
+    ```
 
 ## 2. Crear una base de datos
 
