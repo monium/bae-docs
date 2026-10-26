@@ -212,6 +212,8 @@ Contar usuarios:
 SELECT COUNT(*) FROM usuarios;
 ```
 
+<!--SELECT COUNT(*) AS total usuarios FROM usuarios;     AS AÑADE ALIAS PARA LA FUNCION QUE HACEMOS-->
+
 Calcular la edad media:
 
 ```sql
@@ -231,6 +233,9 @@ SELECT edad, COUNT(*) AS cantidad
 FROM usuarios
 GROUP BY edad;
 ```
+
+<!-- where filtra por filas de la tabla principal y having filtra después de agrupar los datos en tabla temporal-->
+<!-- CRUD siglas:Create,read,update y delete-->
 
 ## 9. Ejecutar comandos directamente desde la terminal
 
@@ -276,7 +281,7 @@ Esto crea `usuarios.csv` en el directorio actual.
 
 Si tienes un archivo `datos.sql` con instrucciones SQL, puedes ejecutarlo así:
 
-```bash
+````bash
 sql empresa.db < datos.sql
 ```sql
 
@@ -310,7 +315,7 @@ Puedes seguir este recorrido desde una terminal:
 
 ```bash
 sqlite3 practica.db
-```
+````
 
 Después, copia las siguientes instrucciones dentro de SQLite:
 
