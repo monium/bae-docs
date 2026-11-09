@@ -1,15 +1,9 @@
-CREATE TABLE nombre (
-    id INTEGER PRIMARY KEY,
-    nombre TEXT NOT NULL
-);
+CREATE TABLE nombre (id INTEGER PRIMARY KEY, nombre TEXT NOT NULL);
 
-INSERT INTO TABLE nombre (nombre) VALUES ("Rosa", "Carla","Pedro")
+INSERT INTO nombre (id, nombre) VALUES (1, "Rosa"), (2, "Carla"), (3, "Pedro");
 
-CREATE TABLE apellido (
-    id INTEGER PRIMARY KEY,
-    apellido TEXT NOT NULL
-);
+CREATE TABLE apellido (id INTEGER PRIMARY KEY, apellido TEXT NOT NULL);
 
-INSERT INTO TABLE apellido (apellido) VALUES ("Morales","Perez","Diaz")
+INSERT INTO apellido (id, apellido) VALUES (1, "Morales"), (2, "Perez"), (4,"Diaz");
 
 SELECT * FROM nombre INNER JOIN apellido ON nombre.id = apellido.id;
